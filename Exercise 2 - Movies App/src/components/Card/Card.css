@@ -1,0 +1,33 @@
+.card {
+  background-color: var(--color-surface-1);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-1);
+
+  text-align: left;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
+}
+
+.card-title {
+  color: var(--color-primary);
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-content {
+  color: var(--color-text);
+}
+
+.index-image {
+  display: block;
+  width: 80px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}

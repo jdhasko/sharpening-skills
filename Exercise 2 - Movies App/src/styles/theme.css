@@ -1,0 +1,57 @@
+/* src/styles/theme.css */
+/* =========================
+   1) THEME VARIABLES (DARK)
+   ========================= */
+
+:root {
+  /* App surfaces & content */
+  --color-bg: #0d0d12; /* main app background */
+  --color-surface-1: #16151d; /* cards, panels */
+  --color-surface-2: #1d1b27; /* raised panels, menus */
+  --color-surface-3: #221f2f; /* highest elevation surface */
+  --color-border: #262336; /* subtle borders/dividers */
+
+  /* Text */
+  --color-text: #e5e5e5; /* primary text */
+  --color-text-muted: #a1a1aa; /* secondary text */
+  --color-text-inverse: #0b0b0f; /* text on very light chips/badges */
+
+  /* Brand (Purple) */
+  --color-primary: var(--purple-500);
+  --color-primary-hover: var(--purple-400);
+  --color-primary-active: var(--purple-300);
+
+  /* States / Feedback */
+  --color-success: #10b981; /* you can remap to your 50–950 green scale later */
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  /* Interactive / Misc */
+  --color-link: var(--purple-400);
+  --color-link-hover: var(--purple-300);
+  --color-focus-ring: var(--purple-400);
+  --color-overlay: rgba(5, 4, 10, 0.6); /* modal/backdrop */
+
+  /* Layout / component basics */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-1: 0 2px 10px rgba(0, 0, 0, 0.25);
+  --shadow-2: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-3: 0 16px 40px rgba(0, 0, 0, 0.45);
+
+  /* Typography (tweak to your taste) */
+  --font-sans: "Roboto", system-ui, -apple-system, Segoe UI, Roboto, Inter,
+    Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 28px;
+  --line-height: 1.5;
+}
